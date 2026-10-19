@@ -6,30 +6,30 @@
 class Naijacloud < Formula
   desc "Deploy and manage NaijaCloud hosting from the terminal, and over MCP"
   homepage "https://naijacloud.com"
-  version "1.5.1"
+  version "1.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/naijacloud/nc-cli/releases/download/v1.5.1/naijacloud_1.5.1_darwin_arm64.tar.gz"
-      sha256 "d88cd25a3c78787527129ddd30a970547a1d641528f691002e53f4c7e3de694b"
+      url "https://github.com/naijacloud/nc-cli/releases/download/v1.6.0/naijacloud_1.6.0_darwin_arm64.tar.gz"
+      sha256 "16e4f8ebffbb4cd42fb506bb40101c69db69df657b4e0d1902e99c0b33512120"
     end
 
     on_intel do
-      url "https://github.com/naijacloud/nc-cli/releases/download/v1.5.1/naijacloud_1.5.1_darwin_amd64.tar.gz"
-      sha256 "2b9c8a3c5454227bf3ab66cf97ddcee7f0fe0e335df9aa881b64704f0d73aef9"
+      url "https://github.com/naijacloud/nc-cli/releases/download/v1.6.0/naijacloud_1.6.0_darwin_amd64.tar.gz"
+      sha256 "bd1c2b72b0ba8cbd52749608a0ab294a12eb711cec9adc98b86670913bf5118b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/naijacloud/nc-cli/releases/download/v1.5.1/naijacloud_1.5.1_linux_arm64.tar.gz"
-      sha256 "c98b8ef8a096b3ab109634602a7a01a3cea309761301bbee570a620728856535"
+      url "https://github.com/naijacloud/nc-cli/releases/download/v1.6.0/naijacloud_1.6.0_linux_arm64.tar.gz"
+      sha256 "c4c8c1035117cf8f32d2a6d62e763de2bbd5f7ddb05d94462e5a299290002a37"
     end
 
     on_intel do
-      url "https://github.com/naijacloud/nc-cli/releases/download/v1.5.1/naijacloud_1.5.1_linux_amd64.tar.gz"
-      sha256 "bffc2e58f3063209c95dc3a4173c3377550996a686548774bc1a7f104d8397d4"
+      url "https://github.com/naijacloud/nc-cli/releases/download/v1.6.0/naijacloud_1.6.0_linux_amd64.tar.gz"
+      sha256 "fc30bdf46a183e73fff62ba372d9ddf1c977e3c2bcf11e99204496f29abb5d30"
     end
   end
 
